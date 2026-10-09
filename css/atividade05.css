@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+body{
+    background-color: rgb(255, 0, 0);
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    body{
+        background-color: purple;
+        color: rgb(126, 103, 103)
+    }
+}

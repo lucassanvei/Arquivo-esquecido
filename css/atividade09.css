@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card {
+    width: 300px;
+    margin: auto;
+    border: 1px solid beige;
+    padding: 15px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card {
+    width: 300px;
+    margin: auto;
+    border: 1px solid beige;
+    padding: 15px;
+}
+
+.card img {
+    width: 100%;
+}
+
+@media (max-width: 500px) {
+    .card {
+        width: 90%;
+    }
+}
